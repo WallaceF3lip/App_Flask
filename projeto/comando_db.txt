@@ -1,0 +1,11 @@
+from app import db
+from app import app
+from livro import livro
+
+app.app_context().push()
+db.create_all()
+
+livro1 = livro(nome="Hábitos Atômicos",descricao="Livro muito bom", valor=40)
+
+db.session.add(livro1)
+db.session.commit()

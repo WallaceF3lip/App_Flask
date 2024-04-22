@@ -1,0 +1,13 @@
+flask --app app run
+flask --app app run --debug
+
+flask --app [NOME_ARQ] run
+
+https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=
+
+https://api.themoviedb.org/3/discover/movie?certification_country=US&certification.lte=G&sort_by=popularity.desc&api_key=
+
+https://api.themoviedb.org/3/discover/movie?primary_release_year=2010&sort_by=vote_average.desc&api_key=
+
+
+396c6c18c7ecf3a64a1b562faaaf6473
